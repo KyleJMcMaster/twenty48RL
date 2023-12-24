@@ -1,0 +1,15 @@
+Try 1: Get it all set up and verify it works (score ~ 1000)
+
+Try 2 Score ~1037: improve reward function, changed it to be the difference in scores between states. To avoid infinite looping, illegal moves are replaced with random legal moves
+
+Try 3  : set illegal moves to have a score of 0. Broke again...
+
+Try 4 (score ~891): changed layer params (16,50) ->(16,100,50), trend seems better
+
+Try 5: trained for longer
+
+	num_iterations 20000 -> 200000
+
+try 6: repeat of try 5
+
+try 7: 2000000 iterations
